@@ -3,15 +3,16 @@ main:
   - title: "Resume"
     url: /cv/
     
-  - title: "Publications"
-    url: /publications/
-
   - title: "Research"
     url: /research/   
 
   - title: "Teaching"
     url: /teaching/    
-    
+
+#  - title: "Publications"
+#    url: /publications/
+
+
 #  - title: "Portfolio"
 #    url: /portfolio/
 

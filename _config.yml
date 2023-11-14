@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "M. Abdullah Canbaz "
+title                    : "Dr. M. Abdullah Canbaz "
 title_separator          : "-"
 name                     : &name "M. Abdullah Canbaz"
-description              : &description "personal description"
+description              : &description "Data Scientist | Principal Investigator | Assistant Professor at SUNY Albany CEHC "
 url                      : https://drcanbaz.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "drcanbaz/drcanbaz.github.io"
