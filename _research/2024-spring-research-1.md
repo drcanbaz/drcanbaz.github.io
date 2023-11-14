@@ -19,3 +19,12 @@ Heading 2
 
 Heading 3
 ======
+
+
+Students Involved in This Project
+======
+
+<profile picture> png or jpeg, 720 px by 720px
+Name
+Twitter, Github, etc. 
+
