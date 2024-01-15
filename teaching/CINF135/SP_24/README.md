@@ -1,4 +1,4 @@
-**CINF 135: Concepts of Artificial Intelligence (3 Credits)**
+***CINF 135: Concepts of Artificial Intelligence (3 Credits)***
 
 **Semester:** Spring 2024
 
@@ -13,12 +13,7 @@
 **Office Location and Hours:** Wednesdays 2:00 pm – 4:00 pm (via Zoom)
 or by appointment
 
-Zoom Meeting Details:  
-***Link:***
-<https://albany.zoom.us/j/96932334282?pwd=RmxXSC9tM0pPbmhWbWptaFA1RS9RUT09>  
-  
-***Meeting ID:*** 969 3233 4282  
-009016
+
 
 **Course Description:**
 
