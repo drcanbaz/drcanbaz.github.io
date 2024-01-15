@@ -487,7 +487,7 @@ fulfilled their classwork obligations, and who, at the end of the
 semester, are looking to avoid failing the course. This is asking for
 special treatment.
 
-## Academic Integrity: It is every student’s responsibility to become familiar with the standards of academic integrity at the University. Claims of ignorance, of unintentional error, or of academic or personal pressures are not sufficient reasons for violations of academic integrity. See <http://www.albany.edu/undergraduate_bulletin/regulations.html>
+**Academic Integrity: It is every student’s responsibility to become familiar with the standards of academic integrity at the University. Claims of ignorance, of unintentional error, or of academic or personal pressures are not sufficient reasons for violations of academic integrity. See <http://www.albany.edu/undergraduate_bulletin/regulations.html> **
 
 Coursework and examinations are considered individual exercises. Copying
 the work of others is a violation of university rules on academic
