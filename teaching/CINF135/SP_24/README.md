@@ -101,7 +101,7 @@ to:
 
 The required text for this course is:
 
-<img src="media/image1.jpeg" style="width:1.56528in;height:2.35278in"
+<img src="images/textbook.png" style="width:1.56528in;height:2.35278in"
 alt="Artificial Intelligence Basics: A... by Taulli, Tom" />
 
 - ***Taulli, Tom, Artificial Intelligence Basics: A Non-technical
