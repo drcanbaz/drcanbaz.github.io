@@ -550,7 +550,6 @@ an exhaustive list.
   - A Failing mark (E) in the course, and referral of the matter to the
     University Judicial System for disposition.
 
-- 
 
 **Copyright Policy:** Materials provided to you as part of this course
 are provided under Fair Use and the TEACH Act. These materials are
