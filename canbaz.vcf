@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.10//EN
+N:Canbaz;M. Abdullah;;;
+FN:M. Abdullah Canbaz
+ORG:Dept. of Information Sciences and Technology\, University at Albany, SUNY;
+TEL;type=WORK;type=VOICE;type=pref:001-518-956-8130
+ADR;type=WORK;type=pref:;;ETEC; Room 260M;1220 Washington Avenue;Albany;NY;12226;United States
+item1.URL;type=pref:https://www.albany.edu/cehc/faculty/m-abdullah-canbaz
+item1.X-ABLabel:_$!<HomePage>!$_
+UID:66c29b03-f1ce-4aa8-ac75-42350aeaa2af
+X-ABUID:66C29B03-F1CE-4AA8-AC75-42350AEAA2AF:ABPerson
+END:VCARD
