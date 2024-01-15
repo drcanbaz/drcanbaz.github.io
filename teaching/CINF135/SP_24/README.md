@@ -15,7 +15,7 @@ or by appointment
 
 
 
-**Course Description:**
+## Course Description:
 
 An introduction to the technical foundations of artificial intelligence
 as well as its relevance to, and implications for modern society. The
@@ -27,7 +27,7 @@ world. The course will introduce issues of fairness, bias,
 explainability, etc., and how these and other issues must be addressed
 in the design, deployment, and use of AI/ML systems.
 
-**Expected Student Learning Outcomes:**
+## Expected Student Learning Outcomes:
 
 This is a course in both the technical and societal aspects of
 artificial intelligence and machine learning (AI/ML) systems. It is
@@ -93,11 +93,11 @@ to:
 
 - **Work** effectively in teams.
 
-**Prerequisites:**
+## Prerequisites:
 
 *None.*
 
-**Required Readings:**
+## Required Readings:
 
 The required text for this course is:
 
@@ -216,7 +216,7 @@ the module. At the end of every 2 modules, there will be a similar
 individual, online synthesis question. It will gauge your ability to
 reason about questions that span multiple topics.
 
-**Honors College/Program Expectation**
+## Honors College/Program Expectation
 
 Students in the Honors College and Honors Program are **required** to
 individually develop a white paper for publication on
@@ -244,7 +244,7 @@ opportunity, with the chance to earn bonus credits upon completion.**
 |                              | Proper documentation           | 15%            |                                 |                                |
 |                              | Impact on the field            | 20%            |                                 |                                |
 
-**Grading:**  
+## Grading: 
 
 | **Category**                                | **Assignment Type**                         | **Category Weight in the Course** | **Weight Within Category** | **Weight to the Final Grade** |
 |---------------------------------------------|---------------------------------------------|-----------------------------------|----------------------------|-------------------------------|
@@ -281,7 +281,7 @@ assignments. Your final grade will be based on a scale of 100 points:
 |--------|--------|--------|-------|--------|--------|-------|--------|--------|-------|--------|-------|
 | 100-94 | 93-89  | 88-85  | 84-82 | 81-79  | 78-76  | 75-73 | 72-70  | 69-67  | 66-64 | 63-60  | 59-0  |
 
-**Course outline:**
+## Course Outline:
 
 **\*\* This is a tentative schedule and subject to change. Please pay
 attention to your Brightspace course outline and announcements.**
@@ -320,7 +320,7 @@ attention to your Brightspace course outline and announcements.**
 | 15       | 30-Apr               |                                       | Last Day of SP Semester                                       |                      |
 | 16       | Final Exam Day (TBD) |                                       |                                                               |                      |
 
-**CEHC Showcase**
+## CEHC Showcase
 
 **CEHC Showcase** is designed as an opportunity for students within the
 information, informatics, game design and development, emergency
@@ -336,7 +336,7 @@ alternative assignment. ***Note:*** I grade easier for Showcase
 presentations than for the alternative assignment so you should
 seriously consider your schedule limitations!
 
-**Policies:**
+## Policies:
 
 **Attendance Policy:** This is an in-person course, and therefore there
 are specified class sessions where attendance will be taken. Course
@@ -378,7 +378,7 @@ accommodations. You can review the [Equity and Compliance
 website](https://www.albany.edu/equity-compliance) as well for
 additional information.
 
-# Extra Credit: Extra credit can be earned in a number of ways. All require consultation with the instructor before they are commenced. All extra-credit opportunities are capped at no more than 3 points (3%) of your overall grade.
+**Extra Credit: Extra credit can be earned in a number of ways. All require consultation with the instructor before they are commenced. All extra-credit opportunities are capped at no more than 3 points (3%) of your overall grade.**
 
 - *Community:* CEHC sponsors several events throughout the semester. Any
   student who attends one or more of those events may receive extra
@@ -588,7 +588,7 @@ Association. Individuals in the social science disciplines primarily use
 this style
 guide. <https://owl.purdue.edu/owl/research_and_citation/apa_style/apa_formatting_and_style_guide/reference_list_books.html> 
 
-## Time Management: For every credit hour that a course meets, students should expect to work 3 additional hours outside of class every week (3 x 3= 9). For a three-credit course, you should expect to work 9 hours outside of class every week. Manage your time effectively to complete readings, assignments, and projects.
+**Time Management: For every credit hour that a course meets, students should expect to work 3 additional hours outside of class every week (3 x 3= 9). For a three-credit course, you should expect to work 9 hours outside of class every week. Manage your time effectively to complete readings, assignments, and projects.**
 
 **Instructor Availability**: The instructor will be available for
 student consultation during office hours, by appointment, and online in
@@ -622,7 +622,7 @@ other students or student groups. In addition, if any of our class
 meetings conflict with your religious events, please let me know so that
 we can make arrangements for you.[^3]
 
-**Additional Information**
+## Additional Information
 
 **CEHC Grievance Policy & Procedure:**
 
