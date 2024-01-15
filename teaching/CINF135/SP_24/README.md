@@ -1,4 +1,4 @@
-***CINF 135: Concepts of Artificial Intelligence (3 Credits)***
+# CINF 135: Concepts of Artificial Intelligence (3 Credits)
 
 **Semester:** Spring 2024
 
