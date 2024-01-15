@@ -220,7 +220,7 @@ reason about questions that span multiple topics.
 
 Students in the Honors College and Honors Program are **required** to
 individually develop a white paper for publication on
-https://arxiv.org/ [^2]. as part of this course. This **mandatory
+https://arxiv.org/ [^2] as part of this course. This **mandatory
 assignment** is an integral component for honors students. **The degree
 students have the option to undertake this assignment as an extra credit
 opportunity, with the chance to earn bonus credits upon completion.**
