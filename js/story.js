@@ -785,16 +785,16 @@
     logInner.innerHTML = ""; state = { name: "", world: "", flavor: "" }; go("intro");
   });
 
-  /* ---------- theme toggle (default dark, remembered) ---------- */
+  /* ---------- theme toggle (default LIGHT; only an explicit toggle is remembered) ---------- */
   var themeBtn = document.getElementById("theme");
-  function applyTheme(t) {
+  function applyTheme(t, persist) {
     document.documentElement.setAttribute("data-theme", t);
     themeBtn.textContent = t === "light" ? "☾ dark" : "☀︎ light";
-    try { localStorage.setItem("story-theme", t); } catch (e) {}
+    if (persist) { try { localStorage.setItem("story-theme", t); } catch (e) {} }
   }
-  (function () { var saved; try { saved = localStorage.getItem("story-theme"); } catch (e) {} applyTheme(saved === "light" ? "light" : "dark"); })();
+  (function () { var saved; try { saved = localStorage.getItem("story-theme"); } catch (e) {} applyTheme(saved === "dark" ? "dark" : "light", false); })();
   themeBtn.addEventListener("click", function () {
-    applyTheme(document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light");
+    applyTheme(document.documentElement.getAttribute("data-theme") === "light" ? "dark" : "light", true);
   });
 
   /* keep focus convenient */
