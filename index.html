@@ -1,351 +1,85 @@
 <!DOCTYPE html>
-<html>
-    
-    <head>
-        <meta charset="utf-8"/>
-        <title>[ M. Abdullah Canbaz @ UAlbany ]</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        
-        <!-- Font Awesome Icons -->
-        <link rel="stylesheet" href="css/font-awesome.min.css"/>
-        
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet"/>
-        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
-        
-        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-        <!--[if lt IE 9]>
-         <script src="js/html5shiv.js"></script>
-         <script src="js/respond.min.js"></script>
-         <![endif]-->
-        
-        
-        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
-        <script src="js/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/menucollapse.js"></script>
-        <script type="text/javascript" src="js/arrow78.js"></script>
-        <script type="text/javascript" src="js/custom.js"></script>
-    </head>
-    
-    <body id="page-top" class="index">
-        
-        <!-- Navigation -->
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container-fluid">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="glyphicon glyphicon-search"></span>
-                    </button>
-                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <span><a href="#"><img border="0" width="170" src="images/UAlbanyMark.png"/></a></span>
-                </div>
-                
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-intro-content').show();" href="index.html">Home</a>
-                        </li>
-                        
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#courses">Courses</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-advising-content').show();" href="#advising">Advising</a>
-                        </li>
-                        
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
-                        </li>
-                        <li class="page-scroll">
-                            <a onclick="javascript:reset_menus();$('#bs-example-navbar-collapse-2').toggle();">
-                                <span class="glyphicon glyphicon-search"></span>
-                            </a>
-                        </li>
-                    </ul>
-                </div><!-- /.navbar-collapse -->
-                
-                <!-- search box submenu -->
-                <div class="collapse" id="bs-example-navbar-collapse-2">
-                    <gcse:search></gcse:search>
-                        </div>
-                
-            </div><!-- /.container-fluid -->
-        </nav>
-        
-        <section>
-            <!-- Place this tag where you want the search results to render -->
-            <gcse:searchresults-only></gcse:searchresults-only>
-                </section>
-        
-        <!-- Home Section -->
-        <section  name="home" id="home" style="margin-top:40px">
-            <div class="container">
-                <div align="left" class="col-md-3">
-                    <a target="_blank" href="images/canbaz.jpg">
-                        <img id="mobile-img" src="images/canbaz.jpg" width="280" border="0"  alt=""></a>
-                </div>
-                <div align="left" class="col-md-4">
-                    <h2>M. Abdullah Canbaz
-                        <h5><i>PhD, U. of Nevada - Reno, USA, 2018</i></h5>
-                    </h2>
-                    
-                    <h4>Assistant Professor<br>
-                        <a href="https://www.albany.edu/cehc/departments/information-sciences-and-technology">Dept. of Information Sciences and Technology</a><br>
-                        <a href="https://www.albany.edu/cehc">College of Emergency Preparedness, Homeland Security, and Cybersecurity</a><br>
-                        <a href="https://www.albany.edu/">University at Albany, SUNY</a><br>
-                        
-                        Tel/Fax: <a href="tel:0015189568130">+1-518-956-8130</a> <br/>
-                        Email: mcanbaz [at] albany {dot} edu <br/> 
-                        <!-- <script language="JavaScript">
-                            
-                            document.write("&nbsp;");
-                            spiderjam('mcanbaz','albany.edu');
-                            
-                            </script>--> 
-                        Lab: <a target="_blank" href="#">AI in Complex Systems Lab</a><br>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meet KaFa-1500 — M. Abdullah Canbaz's AI guide</title>
+  <meta name="description" content="An interactive, story-driven introduction to Dr. M. Abdullah Canbaz and the world of creative AI — no technical knowledge required. Tap to explore his research in AI for law, mental health, safety, and complex systems at University at Albany." />
+  <link rel="canonical" href="https://drcanbaz.com/" />
+  <meta property="og:title" content="A Guided Journey through Creative AI — M. Abdullah Canbaz" />
+  <meta property="og:description" content="Tap to explore. A small AI guide walks you through Dr. Canbaz's world — creative AI for real human problems." />
+  <meta property="og:image" content="https://drcanbaz.com/images/canbaz.jpg" />
+  <link rel="icon" href="images/canbaz.jpg" />
 
-                    </h4>
-                    <h4><i>Expertise: Data Science in Complex Systems and Networks </i> <a href="#intro" onclick="javascript:reset_menus();$('#tab-intro-content').show();" class="btn-primary btn-xs">&raquo;</a><br></h4>
-                    
-                </div>
-                
-                <!-- <i class="twittertop" style="display:none;" id="t1">
-                    <div id="news" tyle="text-align: left"  class="col-md-5">&nbsp;
-                        <center><a class="twitter-timeline" href="https://twitter.com/dmslucy" data-chrome="nofooter" data-widget-id="346662554203992065" data-width="900"
-                            data-height="300">Tweets
-                            by @dmslucy</a>
-                        <script>!function (d, s, id) {
-                            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
-                            if (!d.getElementById(id)) {
-                                js = d.createElement(s);
-                                js.id = id;
-                                js.src = p + "://platform.twitter.com/widgets.js";
-                                fjs.parentNode.insertBefore(js, fjs);
-                            }
-                        }(document, "script", "twitter-wjs");</script></center>
-                    </div>
-                </i> -->
-                
-                <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
-                <b class="expandshow" style="display:none;" id="tab-1">
-                    <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
-                </b>
-                <b class="collapseshow" style="display:none;" id="tab-1">
-                    <button class="btn btn-primary btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('.allshow').hide();$('.noshow').show();$('.expandshow').show();$('.collapseshow').hide();">COLLAPSE ALL SECTIONS <span class="glyphicon glyphicon-chevron-up"></span></button>
-                </b>
-                
-            </div>
-        </section>
-        
-        <!-- Home Section -->
-        <section name="intro" id="intro">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    <!--<h2>Welcome!</h2>-->
-                    
-                    <b class="noshow" style="display:none;" id="tab-1">
-                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-intro-content').toggle();">Introduction <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    
-                    <div class="allshow" style="display:none;" id="tab-intro-content">
-                        <hr class="star-primary">
-                        
-                        <p class="lead">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/story.css" />
+  <script>try{var t=localStorage.getItem("story-theme");document.documentElement.setAttribute("data-theme",t==="light"?"light":"dark");}catch(e){}</script>
+</head>
 
-                            Dr. Canbaz is an Assistant Professor in the Department of Information Sciences & Technology (CIST) and Cybersecurity (CYBR) at <a href="https://www.albany.edu/cehc"><b>College of Emergency Preparedness, Homeland Security, and Cybersecurity</b></a> at <a href="https://www.albany.edu/"><b>University at Albany, SUNY</b></a>. He received his BS degree in Computer Science from <a href="https://en.wikipedia.org/wiki/Fatih_University"><b>Fatih University, Turkey,</b></a> an MS degree in Computer Science from <a href="https://www.ibu.edu.ba/"><b>International Burch University, Bosnia and Herzegovina,</b></a> another MS degree in Computer Science from <a href="https://science.iupui.edu/cs/index.html"><b>Indiana University Purdue University, Indianapolis (IUPUI),</b></a> and a PhD in Computer Science from <a href="https://www.unr.edu/cse"><b>University of Nevada, Reno (UNR).</b></a> He leads the AI in Complex Networks Lab at UAlbany. He is the founder of <b> Clever AI Technologies</b>, a LegalTech startup that focuses on engineering human rights practices to tailor and expand tech solutions for human rights practice.                        </p>
-                        <p>
-                        His primary research interests include <b>Data Science in Complex Systems and Networks</b>, particularly <i>Artificial Intelligence; Applied Machine Learning; Foundational Models in Tactical Edge; Knowledge Graphs and Graph Machine Learning; Computer Networks; Network Science; Big Data Analytics in Cybersecurity.</i>
-                        
-                        
-                        <!-- <p><a href="bio.html" class="btn-sm btn-primary">Biography &raquo;</a>
-                        <a href="cv.html" class="btn-sm btn-primary">CV (Web)&raquo;</a>
-                        <a href="#" class="btn-sm btn-primary">CV (PDF)&raquo;</a> -->
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-       
+<body>
+  <noscript>
+    <div style="padding:24px;color:#e7e2f5;font-family:monospace">
+      <h1>M. Abdullah Canbaz, Ph.D.</h1>
+      <p>Assistant Professor, University at Albany (SUNY) · IEEE Senior Member · Director, AI in Complex Systems Lab.
+      He builds creative, responsible AI for real human problems — law, mental health, emergencies, and complex systems.
+      Email mcanbaz@albany.edu. This page is an interactive story; please enable JavaScript or visit the
+      <a href="classic.html">classic site</a>.</p>
+    </div>
+  </noscript>
 
-        <!-- Courses Section -->
-        <section  name="courses" id="courses">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    
-                    <b class="noshow" style="display:none;" id="tab-5">
-                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-courses-content').toggle();">Courses  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    <div class="allshow" style="display:none;" id="tab-courses-content">
-                        <hr class="star-primary">
-                        <h2>Courses </h2>
-                        <ul>
-                            <li><span class="label label-success">CINF 135</span> Concepts of Artificial Intelligence [ <a href="https://github.com/mabdullahcanbaz/Teaching/blob/main/CINF135/SP_26"> Spring 2026 </a> | Fall 2025 | Spring 2025 | Fall 2024-S1 | Fall 2024-S2 | Spring 2024 ]</li>
-                            <li><span class="label label-success">CINF 196</span> Special Topics - Creative AI [ <a href="https://github.com/mabdullahcanbaz/Teaching/blob/main/CINF196/SP_26"> Spring 2026 </a> ]</li>
-                            <li><span class="label label-default">TINF 135</span> [Honors] Concepts of Artificial Intelligence [ Fall 2025 ]</li>
-                            <li><span class="label label-default">CINF 202</span> Introduction to Data and Databases [ Spring 2023 ] </li>
-                            <li><span class="label label-default">CINF 320</span> Ethical Considerations in Artificial Intelligence [ Fall 2023 ] </li>
-                            <li><span class="label label-default">CINF 624</span> Predictive Modeling [ Spring 2024 | Fall 2023 | Fall 2022 ]</li>
-                            
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        
-        
-        <!-- Courses Section -->
-        <section name="advising" id="advising">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    
-                    <b class="noshow" style="display:none;" id="tab-8">
-                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-advising-content').toggle();">Advising  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    <div class="allshow" style="display:none;" id="tab-advising-content">
-                        
-                        <hr class="star-primary">
-                        <h2>Advising </h2>
-                        <ul>
-                           <li>
-                                <span class="label label-info">Ph.D.</span> (ongoing) <a target="_blank" href="#">Radhakrishnan VenkataKrishnan</a>
-                            </li>
-                            <li>
-                                <span class="label label-info">Ph.D.</span> (ongoing) <a target="_blank" href="#">Mahsa Goodarzi</a>
-                            </li>
-                            <li>
-                                <span class="label label-info">Ph.D.</span> (ongoing) <a target="_blank" href="#">Hakan Otal</a>
-                            </li>
-                            <li>
-                                <span class="label label-info">Ph.D.</span> (ongoing) <a target="_blank" href="#">Rawan Al Makinah</a>
-                            </li>
-                            <li>
-                                <span class="label label-info">Ph.D.</span> (ongoing) <a target="_blank" href="#">Mehmet Mikail Demir</a>
-                            </li>
-                            <li>
-                                <span class="label label-info">Ph.D.</span> (ongoing) <a target="_blank" href="#">Tugce Unlu</a>
-                            </li>
-                            <li>
-                                <span class="label label-info">M.S.</span> (ongoing) <a target="_blank" href="#">Christopher J Schwartz</a>
-                            </li>
-                            <li>
-                                <span class="label label-info">Undergraduate</span> (ongoing) <a target="_blank" href="#">Betul Tok</a>
-                            </li>
-                            <li>
-                                <span class="label label-info">Undergraduate</span> (ongoing) <a target="_blank" href="#">JJ. Gallucci</a>
-                            </li>                          
-                            <li>
-                                <span class="label label-info">Undergraduate</span> (ongoing) <a target="_blank" href="#">Mariela Santos-Reyes</a>
-                            </li>
-                            <li>
-                                <span class="label label-info">Postdoc</span> (completed) <a target="_blank" href="#">Emrah Tanyildizi</a>
-                            </li>
-                            <!-- <li>
-                                <span class="label label-success">Ph.D.</span> (completed) <a target="_blank" href="http://www.uclancyprus.ac.cy/en/courses/school-sciences/academics/panayiotis-andreou">Panayiotis Andreou</a>, Assistant Professor at University of Central Lancashire, Cyprus. </span>
-                            </li>
-                            <li>
-                                <span class="label label-success">Ph.D.</span> (completed) <a target="_blank" href="https://www.cs.ucy.ac.cy/~cs07cc6/">Constantinos Costa</a>, Instructor/Researcher, University of Cyprus, Cyprus.
-                            </li> -->
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        
-        
-        <!-- Home Section -->
-        <section  name="contact" id="contact">
-            <div class="container lead">
-                <div style="text-align: left; margin-top:10px" class="col-md-12">
-                    
-                    <b class="noshow" style="display:none;" id="tab-10">
-                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-contact-content').toggle();">Contact  <span class="glyphicon glyphicon-chevron-down"></span></button>
-                    </b>
-                    <div class="allshow" style="display:none;" id="tab-contact-content">
-                        
-                        <hr class="star-primary">
-                        <h2>Contact</h2>
-                        <div class="container lead">
-                            <div align="left" class="col-md-13">
-                                <h4 class="myEN">
-                                    POSTAL ADDRESS 
-                                </h4>
-                                <p class="myEN">
-                                M. Abdullah Canbaz<br>
-                                Dept. of Information Sciences and Technology<br>
-                                College of Emergency Preparedness, Homeland Security, and Cybersecurity<br>
-                                University at Albany, SUNY<br>
-                                1220 Washington Avenue<br>
-                                Albany, NY 12226<br>
-                                United States<br>
-                                </p>
-                            </div>
-                            
-                            <div align="left" class="col-md-13">
-                                <h4>CONTACT VCARD</h4>
-                                <p>
-                                <a href="canbaz.vcf"><img src="images/canbaz-qr.png" border="0" width="150"><br> </a>
-                                
-                                  <a href="canbaz.vcf" class="btn btn-primary">Get VCF Card &raquo;</a>
-                                </p>
-                            </div>
-                            
-                            <div align="left" class="col-md-13">
-                                <h4>OFFICE ADDRESS</h4>
-                                <p>ETEC, Room 260M<br/>
-                                    1220 Washington Avenue,<br/>
-                                    Albany, NY 12226<br/>
-                                    United States<br/>
+  <div class="app">
+    <div class="chrome">
+      <span class="dots"><i class="r"></i><i class="y"></i><i class="g"></i></span>
+      <span class="chrome__title">✦ <b>KaFa-1500</b> — Dr. Canbaz's guide</span>
+      <span class="chrome__right">
+        <button class="chip" id="theme">☀︎ light</button>
+        <button class="chip" id="restart">↺ restart</button>
+        <a class="chip classic-blink" href="classic.html">classic ↗</a>
+      </span>
+    </div>
 
-                                Tel: <a href="tel:0015189568130">+1-518-956-8130</a><br/>
-                                Fax: <a href="tel:0015184425632">+1-518-442-5632</a><br/>
-                                <br/>
-                                </p>
-                            </div>
-                            
-                            <div align="left" class="col-md-13">
-                                <h4>OFFICE DIRECTIONS</h4>
-                                <p><a href="https://maps.app.goo.gl/Fxjm2HNnxoPR39jP6" target="_blank"><img src="images/ETEC-QR.png" border="0"
-                                    width="150"> <br></a>
-                                    <a href="https://maps.app.goo.gl/Fxjm2HNnxoPR39jP6" class="btn btn-primary">Get Directions &raquo;</a>
+    <aside class="rail">
+      <div class="rail__h">KaFa-1500 · chapters</div>
+      <ul id="rail">
+        <li data-go="hub"><span class="e">✦</span> Start</li>
+        <li data-go="about_kafa"><span class="e">🤖</span> Who is KaFa-1500?</li>
+        <li data-go="projects"><span class="e">🚀</span> Flagship projects</li>
+        <li data-go="stories"><span class="e">🔬</span> Lab stories</li>
+        <li data-go="demos"><span class="e">🕹</span> Live demos</li>
+        <li data-go="problem"><span class="e">🧩</span> Bring a problem</li>
+        <li data-go="teaching"><span class="e">📚</span> Classes &amp; syllabi</li>
+        <li data-go="play_world"><span class="e">🎨</span> Make something</li>
+        <li data-go="creative"><span class="e">✨</span> What is Creative AI?</li>
+        <li data-go="about"><span class="e">🧭</span> The person</li>
+        <li data-go="numbers"><span class="e">📊</span> By the numbers</li>
+        <li data-go="contact"><span class="e">📨</span> Reach out</li>
+      </ul>
+      <div class="rail__foot">
+        <div class="rail__foot-h">first time here?</div>
+        <a href="classic.html">🖥 View the normal website →</a>
+      </div>
+    </aside>
 
-                                </p>
-                            </div>
-                        </div>
-                        <hr class="star-primary">
-                    </div>
-                    
-                    </section>
-        
-        <hr class="star-primary">
-        <footer>
-            <small>
-            <center>
-                © 2024 | M. Abdullah Canbaz. Credits: AR template
-            <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
-            <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence: 
-            <a href="https://github.com/dmsl/academic-responsive-template" target="_blank">
-                https://github.com/dmsl/academic-responsive-template 
-            </a> ]
-            </div>
-            </center>
-            </small>
-        </footer>
-        
-    </body>
-    
+    <main class="main">
+      <div class="bar"><i id="bar"></i></div>
+      <div class="log" id="log"><div class="log__inner" id="logInner"></div></div>
+      <div class="dock">
+        <form id="form" autocomplete="off">
+          <input id="say" type="text" aria-label="Ask KaFa-1500" placeholder="💬 Ask KaFa-1500 anything…" spellcheck="false" autocomplete="off" />
+          <button type="submit" class="send" aria-label="Send message">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"/><polyline points="5 12 12 5 19 12"/></svg>
+          </button>
+        </form>
+        <div class="dock-hint">…or just tap an option above · press 1–9</div>
+      </div>
+    </main>
+  </div>
+
+  <script src="data/profile.js"></script>
+  <script src="js/track.js"></script>
+  <script src="js/can-knowledge.js"></script>
+  <script src="js/story.js"></script>
+</body>
 </html>

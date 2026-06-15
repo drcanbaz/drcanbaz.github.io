@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>M. Abdullah Canbaz, Ph.D. — AI in Complex Systems</title>
+  <meta name="description" content="Dr. M. Abdullah Canbaz — Assistant Professor at University at Albany (SUNY), IEEE Senior Member, and Director of the AI in Complex Systems Lab. Research in AI, machine learning, knowledge graphs, network science, and cybersecurity." />
+  <meta name="author" content="M. Abdullah Canbaz" />
+  <link rel="canonical" href="https://drcanbaz.com/" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="M. Abdullah Canbaz, Ph.D. — AI in Complex Systems" />
+  <meta property="og:description" content="Assistant Professor at University at Albany (SUNY) · IEEE Senior Member · Director, AI in Complex Systems Lab." />
+  <meta property="og:url" content="https://drcanbaz.com/" />
+  <meta property="og:image" content="https://drcanbaz.com/images/canbaz.jpg" />
+  <meta name="twitter:card" content="summary" />
+
+  <link rel="icon" href="images/canbaz.jpg" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Set theme before paint to avoid flash -->
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem("theme");
+        if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.setAttribute("data-theme", t);
+      } catch (e) {}
+    })();
+  </script>
+
+  <!-- Structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "M. Abdullah Canbaz",
+    "honorificSuffix": "Ph.D.",
+    "jobTitle": "Assistant Professor",
+    "url": "https://drcanbaz.com",
+    "email": "mailto:mcanbaz@albany.edu",
+    "image": "https://drcanbaz.com/images/canbaz.jpg",
+    "worksFor": { "@type": "CollegeOrUniversity", "name": "University at Albany, SUNY" },
+    "alumniOf": "University of Nevada, Reno",
+    "knowsAbout": ["Artificial Intelligence", "Machine Learning", "Knowledge Graphs", "Network Science", "Cybersecurity", "Large Language Models"]
+  }
+  </script>
+</head>
+
+<body id="top">
+
+  <!-- ===================== NAV ===================== -->
+  <nav class="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="nav__brand">M. A. <span>Canbaz</span></a>
+      <ul class="nav__links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#research">Research</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#funding">Funding</a></li>
+        <li><a href="#teaching">Teaching</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <button class="icon-btn theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+          <svg class="sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </button>
+        <button class="icon-btn nav__toggle" aria-label="Toggle menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ===================== HERO ===================== -->
+  <header class="hero">
+    <div class="container">
+      <div class="hero__grid">
+        <div class="hero__photo-wrap">
+          <img class="hero__photo" src="images/canbaz.jpg" alt="Portrait of Dr. M. Abdullah Canbaz" />
+        </div>
+        <div>
+          <h1 class="hero__name">M. Abdullah Canbaz</h1>
+          <p class="hero__role"><b>Assistant Professor</b> · IEEE Senior Member · AI &amp; Society Research Fellow</p>
+          <p class="hero__role">Director, AI in Complex Systems Laboratory</p>
+          <p class="hero__affil">Dept. of Information Sciences &amp; Technology · College of Emergency Preparedness, Homeland Security &amp; Cybersecurity · University at Albany, SUNY</p>
+
+          <div class="hero__tags">
+            <span class="tag">Artificial Intelligence</span>
+            <span class="tag">Applied Machine Learning</span>
+            <span class="tag">Knowledge Graphs</span>
+            <span class="tag">Network Science</span>
+            <span class="tag">Cybersecurity</span>
+            <span class="tag tag--gold">LLMs &amp; LegalTech</span>
+          </div>
+
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="mailto:mcanbaz@albany.edu">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><polyline points="3 7 12 13 21 7"/></svg>
+              Email Me
+            </a>
+            <a class="btn btn--ghost" href="https://www.albany.edu/cehc/faculty/m-abdullah-canbaz" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14l9-5-9-5-9 5 9 5z"/><path d="M12 14l6.16-3.42A12 12 0 0 1 12 21a12 12 0 0 1-6.16-10.42L12 14z"/></svg>
+              Faculty Page
+            </a>
+            <a class="btn btn--ghost" href="https://github.com/mabdullahcanbaz/Teaching" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49l-.01-1.71c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9l-.01 2.82c0 .27.18.59.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+              GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats -->
+      <div class="stats">
+        <div class="stat"><div class="stat__num">35+</div><div class="stat__label">Peer-Reviewed Publications</div></div>
+        <div class="stat"><div class="stat__num">$1.7M+</div><div class="stat__label">Research Funding (PI / Co-PI)</div></div>
+        <div class="stat"><div class="stat__num">6+</div><div class="stat__label">Ph.D. Students Advised</div></div>
+        <div class="stat"><div class="stat__num">3</div><div class="stat__label">Federal Grants (NSF · USDA · NIH)</div></div>
+        <div class="stat"><div class="stat__num">2018</div><div class="stat__label">Ph.D., University of Nevada, Reno</div></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== ABOUT ===================== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="about__grid">
+        <div class="reveal">
+          <div class="section__head">
+            <span class="section__eyebrow">About</span>
+            <h2 class="section__title">Engineering AI for complex systems &amp; society</h2>
+          </div>
+          <div class="prose">
+            <p>
+              <b>Dr. M. Abdullah Canbaz</b> is an Assistant Professor in the Department of Information Sciences &amp; Technology and Cybersecurity at the
+              <b>College of Emergency Preparedness, Homeland Security &amp; Cybersecurity (CEHC)</b>, University at Albany, SUNY, where he directs the
+              <b>AI in Complex Systems Laboratory</b>. He is an <b>IEEE Senior Member</b> and an inaugural <b>AI &amp; Society Research Fellow</b>.
+            </p>
+            <p>
+              His research engineers artificial intelligence and machine learning for real-world complex systems — spanning
+              <b>large language models &amp; LegalTech</b>, <b>AI for mental &amp; behavioral health</b>, <b>cybersecurity &amp; cyber deception</b>,
+              <b>crisis response &amp; public safety</b>, and the <b>network science of complex systems</b>. A through-line of his work is
+              grounding modern AI in graph structure, network topology, and responsible, bias-aware design.
+            </p>
+            <p>
+              He earned his Ph.D. in Computer Science &amp; Engineering from the <b>University of Nevada, Reno</b> (2018; Best Dissertation Award),
+              an M.S. from <b>Indiana University–Purdue University Indianapolis</b>, and a B.S. in Computer Engineering from <b>Fatih University</b>, Istanbul.
+              He previously held faculty appointments at Indiana University Kokomo and UNR.
+            </p>
+          </div>
+        </div>
+
+        <aside class="about__card reveal">
+          <h3>Education</h3>
+          <ul class="timeline">
+            <li>
+              <span class="yr">2018</span>
+              <span class="what">Ph.D., Computer Science &amp; Engineering</span>
+              <span class="where">University of Nevada, Reno · Best Dissertation Award</span>
+            </li>
+            <li>
+              <span class="yr">2014</span>
+              <span class="what">M.S., Computer &amp; Information Science</span>
+              <span class="where">Indiana University–Purdue University Indianapolis</span>
+            </li>
+            <li>
+              <span class="yr">2010</span>
+              <span class="what">B.S., Computer Engineering</span>
+              <span class="where">Fatih University, Istanbul, Turkey</span>
+            </li>
+          </ul>
+          <h3 style="margin-top:24px">Honors</h3>
+          <ul class="timeline">
+            <li><span class="yr">2025</span><span class="what">AI &amp; Society Research Fellow</span><span class="where">University at Albany — inaugural cohort</span></li>
+            <li><span class="yr">2024</span><span class="what">Excellence in Research Award</span><span class="where">CEHC, University at Albany</span></li>
+            <li><span class="yr">2024</span><span class="what">IEEE Senior Member</span><span class="where">Senior grade elevation</span></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== RESEARCH ===================== -->
+  <section class="section section--alt" id="research">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__eyebrow">Research</span>
+        <h2 class="section__title">Areas of focus</h2>
+        <p class="section__lead">The lab builds AI systems that are grounded, trustworthy, and useful in high-stakes settings — connecting machine learning with graphs, networks, and the people these systems serve.</p>
+      </div>
+
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 9V5a3 3 0 0 0-6 0v4"/><rect x="4" y="9" width="16" height="12" rx="2"/><path d="M12 13v4"/></svg></div>
+          <h3>LLMs &amp; LegalTech</h3>
+          <p>Privacy-preserving legal AI, hallucination &amp; citation benchmarks, semantic knowledge graphs, and retrieval-augmented generation for trustworthy legal reasoning.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.29 1.51 4.04 3 5.5l7 7z"/></svg></div>
+          <h3>AI for Mental &amp; Behavioral Health</h3>
+          <p>Human–AI collaboration for empathetic chatbots, graph-based early-warning copilots from therapy narratives, and psychological first-aid assistants.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
+          <h3>Cybersecurity &amp; Cyber Deception</h3>
+          <p>LLM-powered honeypots, multi-agent cyber deception, federated learning under adversarial poisoning, and resilient satellite-edge data centers.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+          <h3>Crisis Response &amp; Public Safety</h3>
+          <p>LLM platforms for emergency management, satellite imagery for disaster recovery, and real-time AI for active-threat and firearm detection.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="5" cy="6" r="2"/><circle cx="19" cy="6" r="2"/><circle cx="12" cy="18" r="2"/><path d="M7 6h10M6 8l5 8M18 8l-5 8"/></svg></div>
+          <h3>Network Science &amp; Complex Systems</h3>
+          <p>Internet topology mining, co-authorship &amp; advisory networks, quantum network science, and system-dynamics modeling of bias evolution.</p>
+        </article>
+
+        <article class="card reveal">
+          <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 9 9"/><path d="M12 7v5l3 3"/><path d="M16 3h5v5"/></svg></div>
+          <h3>Responsible AI &amp; Society</h3>
+          <p>Network-based frameworks for mapping and mitigating AI bias, heuristics in AI decision-making, and AI governance for societal impact.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== PUBLICATIONS ===================== -->
+  <section class="section" id="publications">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__eyebrow">Publications</span>
+        <h2 class="section__title">Selected &amp; recent work</h2>
+        <p class="section__lead">Peer-reviewed journals, conference proceedings, and book chapters. Filter by type or search by keyword, author, or venue.</p>
+      </div>
+
+      <div class="pub-controls reveal">
+        <div class="filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="journal">Journals</button>
+          <button class="filter-btn" data-filter="conference">Conferences</button>
+          <button class="filter-btn" data-filter="chapter">Book Chapters</button>
+        </div>
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input id="pub-search" type="search" placeholder="Search publications…" aria-label="Search publications" />
+        </div>
+      </div>
+
+      <div class="pub-list" id="pub-list"></div>
+      <p class="pub-empty" id="pub-empty">No publications match your search.</p>
+
+      <p class="legend">
+        <b>Legend:</b> Authors in <b>bold</b> indicate Dr. Canbaz. Student co-authors are noted in the full CV
+        (Ph.D. †, undergraduate *). A complete, citable list is also available on request.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===================== FUNDING ===================== -->
+  <section class="section section--alt" id="funding">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__eyebrow">Grant Funding</span>
+        <h2 class="section__title">Sponsored research</h2>
+        <p class="section__lead">Over <b>$1.7M</b> in awarded funding as PI or Co-PI, spanning federal agencies, foundations, industry, and community partnerships.</p>
+      </div>
+
+      <div class="fund-group reveal">
+        <h3 class="fund-group__title">Federal <span class="count">NSF · USDA · NIH</span></h3>
+        <div class="fund-grid">
+          <div class="fund">
+            <div class="fund__top"><span class="fund__role">PI</span><span class="fund__amt">$464,622</span></div>
+            <div class="fund__title">REU Site: Integrative Challenges in Cybersecurity — Deception, Remediation, and Resilient Systems</div>
+            <div class="fund__meta">NSF CISE–REU · 2026–2029</div>
+          </div>
+          <div class="fund">
+            <div class="fund__top"><span class="fund__role">Co-PI</span><span class="fund__amt">$611,000</span></div>
+            <div class="fund__title">Optical CRISPR Nano-diagnostics Against Salmonella Using Mobile-App Image Analysis</div>
+            <div class="fund__meta">USDA · 2023–2027</div>
+          </div>
+          <div class="fund">
+            <div class="fund__top"><span class="fund__role">Co-PI</span><span class="fund__amt">$306,844</span></div>
+            <div class="fund__title">Empowering Direct Care Workers with AI-Integrated Wearable Technology to Prevent Back Injuries</div>
+            <div class="fund__meta">NIH STTR · 2025–2026 · ($102K UAlbany share)</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fund-group reveal">
+        <h3 class="fund-group__title">Foundations &amp; Industry</h3>
+        <div class="fund-grid">
+          <div class="fund">
+            <div class="fund__top"><span class="fund__role">PI</span><span class="fund__amt">$88,180</span></div>
+            <div class="fund__title">AERA-PFA — Clinician-Focused Psychological First Aid Assistant</div>
+            <div class="fund__meta">SUNY AI Platform (Google Cloud) · 2025–2026</div>
+          </div>
+          <div class="fund">
+            <div class="fund__top"><span class="fund__role">PI</span><span class="fund__amt">$87,774</span></div>
+            <div class="fund__title">Strategic Research Alliance: Transforming Legal Practices through AI</div>
+            <div class="fund__meta">NY Prosecutors Training Institute · 2025–2026</div>
+          </div>
+          <div class="fund">
+            <div class="fund__top"><span class="fund__role">PI</span><span class="fund__amt">$87,146</span></div>
+            <div class="fund__title">Banana Guard Next — Proactive AI for Early Detection of Active-Shooter Threats</div>
+            <div class="fund__meta">SUNY AI Platform (Google Cloud) · 2025–2026</div>
+          </div>
+          <div class="fund">
+            <div class="fund__top"><span class="fund__role">PI</span><span class="fund__amt">$87,146</span></div>
+            <div class="fund__title">AI-Driven Creative Pipeline — Dynamic Marketing &amp; Outreach at UAlbany</div>
+            <div class="fund__meta">SUNY AI Platform (Google Cloud) · 2025–2026</div>
+          </div>
+          <div class="fund">
+            <div class="fund__top"><span class="fund__role">PI</span><span class="fund__amt">$15,000</span></div>
+            <div class="fund__title">PFA Assistant Prototype — AERA: AI for Emergency Response &amp; Assistance</div>
+            <div class="fund__meta">Global Center for AI in Mental Health · 2025–2026</div>
+          </div>
+          <div class="fund">
+            <div class="fund__top"><span class="fund__role">PI</span><span class="fund__amt">$10,500</span></div>
+            <div class="fund__title">BlackLamp — A Physical AI-Cybersecurity Testbed for Societal Risks of IoT &amp; Autonomous AI</div>
+            <div class="fund__meta">AI &amp; Society Center, UAlbany · 2026</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="fund-group reveal">
+        <h3 class="fund-group__title">Community Engagement</h3>
+        <div class="fund-grid">
+          <div class="fund">
+            <div class="fund__top"><span class="fund__role">PI</span><span class="fund__amt">$150,000</span></div>
+            <div class="fund__title">Enhancing the Communities Against Hate Crime — Bosnian Community Center, Albany</div>
+            <div class="fund__meta">NYS Division of Criminal Justice Services · 2023–2025</div>
+          </div>
+          <div class="fund">
+            <div class="fund__top"><span class="fund__role">PI</span><span class="fund__amt">$15,000</span></div>
+            <div class="fund__title">NYS Council of Arts &amp; Folklore Award — Bosnian Community Center, Albany</div>
+            <div class="fund__meta">NYSCA · 2026</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== TEACHING & MENTORSHIP ===================== -->
+  <section class="section" id="teaching">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__eyebrow">Teaching &amp; Mentorship</span>
+        <h2 class="section__title">In the classroom &amp; the lab</h2>
+      </div>
+
+      <div class="two-col">
+        <div class="block reveal">
+          <h3>Courses at University at Albany</h3>
+          <ul class="course-list">
+            <li><span class="course-code">CINF 135</span><span class="course-name">Concepts of Artificial Intelligence <small>F22–S26 · also Honors (TINF 135)</small></span></li>
+            <li><span class="course-code">CINF 196</span><span class="course-name">Special Topics — Creative AI <small>Spring 2026</small></span></li>
+            <li><span class="course-code">CINF 320</span><span class="course-name">Ethical Considerations of Artificial Intelligence <small>S23, S24</small></span></li>
+            <li><span class="course-code">CINF 624</span><span class="course-name">Predictive Modeling <small>F22, F23, S24</small></span></li>
+            <li><span class="course-code">CINF 202</span><span class="course-name">Introduction to Data and Databases <small>F22–S24</small></span></li>
+          </ul>
+          <p class="section__lead" style="font-size:.92rem">Previously taught Data Structures, Data Mining, Computer Networks, Analysis of Algorithms, and Programming I/II at Indiana University Kokomo and the University of Nevada, Reno.</p>
+          <a class="btn btn--ghost" href="https://github.com/mabdullahcanbaz/Teaching" target="_blank" rel="noopener" style="margin-top:14px">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.58 2 12.25c0 4.53 2.87 8.37 6.84 9.73.5.1.68-.22.68-.49l-.01-1.71c-2.78.62-3.37-1.37-3.37-1.37-.45-1.18-1.11-1.49-1.11-1.49-.91-.64.07-.62.07-.62 1 .07 1.53 1.06 1.53 1.06.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.28 2.75 1.05a9.3 9.3 0 0 1 5 0c1.91-1.33 2.75-1.05 2.75-1.05.55 1.42.2 2.47.1 2.73.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.06.36.32.68.94.68 1.9l-.01 2.82c0 .27.18.59.69.49A10.26 10.26 0 0 0 22 12.25C22 6.58 17.52 2 12 2z"/></svg>
+            Course Materials
+          </a>
+        </div>
+
+        <div class="block reveal">
+          <h3>AI in Complex Systems Lab</h3>
+          <p class="subhead">Ph.D. Researchers</p>
+          <div class="people">
+            <div class="person"><div class="person__name">Hakan T. Otal</div><div class="person__role">Malicious traffic detection &amp; synthesis</div></div>
+            <div class="person"><div class="person__name">Tugce Unlu</div><div class="person__role">Information assurance in agentic AI</div></div>
+            <div class="person"><div class="person__name">Mehmet Mikail Demir</div><div class="person__role">AI governance &amp; LegalTech</div></div>
+            <div class="person"><div class="person__name">Mahsa Goodarzi</div><div class="person__role">Bias evolution in recommender systems</div></div>
+            <div class="person"><div class="person__name">Rawan Al Makinah</div><div class="person__role">AI for behavioral health</div></div>
+            <div class="person"><div class="person__name">R. Venkatarakrishnan</div><div class="person__role">Legal knowledge graphs</div></div>
+          </div>
+          <p class="subhead">Master's &amp; Undergraduate</p>
+          <div class="people">
+            <div class="person"><div class="person__name">Mariela Santos-Reyes</div><div class="person__role">AI in music generation</div></div>
+            <div class="person"><div class="person__name">JJ Gallucci</div><div class="person__role">AI in 3D world &amp; game generation</div></div>
+            <div class="person"><div class="person__name">Christoph J. Schwartz</div><div class="person__role">Game network fingerprinting</div></div>
+            <div class="person"><div class="person__name">Betul Tok</div><div class="person__role">Bias detection in recommenders</div></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== CONTACT ===================== -->
+  <section class="section section--alt" id="contact">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="section__eyebrow">Contact</span>
+        <h2 class="section__title">Get in touch</h2>
+        <p class="section__lead">Open to research collaborations, Ph.D. inquiries, consulting, and speaking. The fastest way to reach me is by email.</p>
+      </div>
+
+      <div class="contact__grid">
+        <div class="contact__card reveal">
+          <div class="contact__row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><polyline points="3 7 12 13 21 7"/></svg>
+            <div><div class="label">Email</div><div class="value"><a href="mailto:mcanbaz@albany.edu">mcanbaz@albany.edu</a></div></div>
+          </div>
+          <div class="contact__row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.8 19.8 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.13.96.36 1.9.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.91.34 1.85.57 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <div><div class="label">Phone</div><div class="value"><a href="tel:+15184425258">+1 (518) 442-5258</a></div></div>
+          </div>
+          <div class="contact__row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            <div><div class="label">Office</div><div class="value">ETEC, Room 260M · 1220 Washington Avenue · Albany, NY 12226</div></div>
+          </div>
+          <div class="contact__row">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            <div><div class="label">Department</div><div class="value">Information Sciences &amp; Technology · CEHC · University at Albany, SUNY</div></div>
+          </div>
+          <div class="contact__row" style="border:none">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20z"/></svg>
+            <div><div class="label">Profiles</div><div class="value">
+              <a href="https://www.albany.edu/cehc/faculty/m-abdullah-canbaz" target="_blank" rel="noopener">Faculty Page</a> ·
+              <a href="https://github.com/mabdullahcanbaz" target="_blank" rel="noopener">GitHub</a>
+            </div></div>
+          </div>
+        </div>
+
+        <div class="contact__card contact__vcard reveal">
+          <img src="images/canbaz-qr.png" alt="QR code for vCard contact" />
+          <a class="btn btn--primary" href="canbaz.vcf" style="width:100%; justify-content:center">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Download vCard
+          </a>
+          <a class="btn btn--ghost" href="https://maps.app.goo.gl/Fxjm2HNnxoPR39jP6" target="_blank" rel="noopener" style="width:100%; justify-content:center; margin-top:10px">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+            Office Directions
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div>© <span id="year">2026</span> M. Abdullah Canbaz · <a href="https://drcanbaz.com">drcanbaz.com</a></div>
+      <div>Director, AI in Complex Systems Lab · University at Albany, SUNY</div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
