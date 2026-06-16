@@ -150,6 +150,7 @@
         { label: "🔬 Stories from the lab", to: "stories" },
         { label: "🕹 Try a live demo of his work", to: "demos" },
         { label: "🧩 Bring me a real problem", to: "problem" },
+        { label: "📚 Classes & syllabi", to: "teaching" },
         { label: "🎨 Make something together", to: "play_world" },
         { label: "🤖 Wait — what are //you//, KaFa?", to: "about_kafa" }
       ]
